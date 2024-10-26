@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Музыкальный Плеер</title>
+</head>
+<body>
+    <div class="player-container">
+        <img id="cover" src="" alt="Обложка альбома" class="cover" />
+        <div class="controls">
+            <button id="prev" aria-label="Предыдущий трек">◀</button>
+            <button id="play-pause" aria-label="Воспроизвести/Пауза">▶</button>
+            <button id="next" aria-label="Следующий трек">▶▶</button>
+        </div>
+        <div class="track-info">
+            <h2 id="track-name">Трек</h2>
+            <h3 id="artist-name">Исполнитель</h3>
+        </div>
+        <ul id="track-list" class="track-list"></ul>
+    </div>
+    <audio id="audio" src=""></audio>
+    <script src="script.js"></script>
+</body>
+</html>
